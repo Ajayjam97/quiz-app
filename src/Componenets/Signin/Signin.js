@@ -10,7 +10,7 @@ class Signin extends Component {
 		return (
 			// Signin goes here
 			<main>
-                {<div ClassName="maincontainer" style={{margin: '80px'}}>
+                {<div className="maincontainer" style={{margin: '80px'}}>
 
          <div className="container">
             <div className="row justify-content-center">
