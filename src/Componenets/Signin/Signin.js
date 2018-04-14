@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import './Signin.css';
-import googleLogo from  '../../assets/images/googleoriginal.svg';
-import githubLogo from  '../../assets/images/githuboriginal.svg';
+
 
 
 class Signin extends Component {
@@ -10,7 +9,7 @@ class Signin extends Component {
 		return (
 			// Signin goes here
 			<main>
-                {<div ClassName="maincontainer" style={{margin: '80px'}}>
+                {<div className="maincontainer" style={{margin: '80px'}}>
 
          <div className="container">
             <div className="row justify-content-center">
@@ -52,7 +51,7 @@ class Signin extends Component {
 
 
 
-              <button type="button" class="btn btn-default btn-block" >
+              <button type="button" className="btn btn-default btn-block" >
                 <svg id="google" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 128 128"><defs><style>{`.cls-1{fill: #fff;}.cls-2{fill: #e33629;}.cls-3{fill: #f8bd00;}.cls-4{fill: #587dbd;}.cls-5{fill: #319f43;}`}</style></defs><title>google</title><g id="original">
             <path className="cls-1" d="M44.59,4.21a63.28,63.28,0,0,0,4.33,120.9,67.6,67.6,0,0,0,32.36.35A57.13,57.13,0,0,0,107.18,112a57.44,57.44,0,0,0,16-26.26,74.33,74.33,0,0,0,1.61-33.58H65.27c0,8.23,0,16.46,0,24.69H99.74A29.72,29.72,0,0,1,87.08,96.37a36.16,36.16,0,0,1-13.93,5.5,41.29,41.29,0,0,1-15.1,0A37.16,37.16,0,0,1,44,95.74a39.3,39.3,0,0,1-14.5-19.42,38.31,38.31,0,0,1,0-24.63,39.25,39.25,0,0,1,9.18-14.91A37.17,37.17,0,0,1,76.13,27a34.28,34.28,0,0,1,13.64,8q5.83-5.8,11.64-11.63c2-2.09,4.18-4.08,6.15-6.22A61.22,61.22,0,0,0,87.2,4.59,64,64,0,0,0,44.59,4.21Z"/>
             <path className="cls-2" d="M44.59,4.21a64,64,0,0,1,42.61.37A61.22,61.22,0,0,1,107.55,17.2c-2,2.14-4.11,4.14-6.15,6.22Q95.58,29.23,89.77,35a34.28,34.28,0,0,0-13.64-8,37.17,37.17,0,0,0-37.46,9.74,39.25,39.25,0,0,0-9.18,14.91L8.76,35.6A63.53,63.53,0,0,1,44.59,4.21Z"/>
